@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/skyblue">
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/et_today"
+        android:layout_width="409dp"
+        android:layout_height="89dp"
+        android:hint="@string/share"
+        android:autofillHints="@string/share"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="127dp"/>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/posting"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="221dp"
+        android:backgroundTint="@color/steelblue"/>
+
+    <TextView
+        android:id="@+id/tV_today"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:text="@string/family_news"
+        android:textSize="20sp"
+        android:textColor="#4682B4"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="269dp"/>
+
+</LinearLayout>
